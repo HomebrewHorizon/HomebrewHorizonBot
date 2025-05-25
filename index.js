@@ -5,7 +5,7 @@ const client = new Client({
     intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent]
 });
 
-const TOKEN = '';
+const TOKEN = 'DISCORD_BOT_TOKEN';
 const LICENSE_FILE = 'licensed_apps.json';
 
 client.once('ready', () => {
