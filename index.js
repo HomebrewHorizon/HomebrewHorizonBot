@@ -5,7 +5,7 @@ const client = new Client({
     intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent]
 });
 
-const TOKEN = 'your_discord_bot_token';
+const TOKEN = 'MTM3NjI1MzY0NzQyNzYwNDYxMg.GreiBp.QXuESvsu7ABjFtyCJYvtFJOByjFUISAxKGBWa8';
 const LICENSE_FILE = 'licensed_apps.json';
 
 client.once('ready', () => {
